@@ -25,9 +25,16 @@
      */ 
     function init(game) {
         let createPlatform = platform.create;
-
+       
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
+        
+        createPlatform(200, 550);           // normal platform
+        createPlatform(100, 400);           // normal platform
+        createPlatform(400, 100);           // normal platform
+        createPlatform(150, 200);           // normal platform
+        createPlatform(300, 300);           // normal platform
+        createPlatform(700, 400);           // normal platform
         
         /*
          * ground : here, we create a floor. Given the width of of the platform 
@@ -37,9 +44,9 @@
         createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
 
         // example:
-        createPlatform(400, 250);
-        createPlatform(170, 460, 0.5);
-        
+        createPlatform(400, 460);           // normal platform
+        createPlatform(300, 200, 0.3)       // small horizontal platform (30% the normal width)
+        createPlatform(500, 500, 0.3, 10)   // tall vertical wall (30% the normal width and 10x the height)
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     }

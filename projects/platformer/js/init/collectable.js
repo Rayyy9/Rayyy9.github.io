@@ -33,6 +33,12 @@
     function init(game) {
         let createCollectable = collectable.create;
 
+        createCollectable(type.grace, 400, 170, 6, 0.7);
+        createCollectable(type.steve, 200, 170, 6, 0.7);
+        createCollectable(type.max, 800, 200, 6, 0.7);
+        createCollectable(type.max, 500, 200, 6, 0.7);
+        createCollectable(type.max, 100, 200, 6, 0.7);
+        
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
