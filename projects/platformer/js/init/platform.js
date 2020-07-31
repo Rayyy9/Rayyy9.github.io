@@ -29,6 +29,7 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
+    
         createPlatform(200, 550);           // normal platform
         createPlatform(100, 400);           // normal platform
         createPlatform(400, 100);           // normal platform
